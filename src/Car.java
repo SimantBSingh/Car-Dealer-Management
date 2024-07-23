@@ -9,7 +9,7 @@ public class Car implements Serializable{
     private int age;
     private boolean isSold;
     private Customer prevOwner;
-    private Customer boughtBy;
+    // private Customer boughtBy;
 
 
     public Car (String model, String id, int mileage, double price, int age){
